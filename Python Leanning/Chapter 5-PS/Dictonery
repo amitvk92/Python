@@ -1,0 +1,18 @@
+    1. Accessing and Modifying Dictionary
+dict.get(key, default): Returns the value for key if it exists, otherwise returns default.
+dict.keys(): Returns a view object containing all dictionary keys.
+dict.values(): Returns a view object containing all dictionary values.
+dict.items(): Returns a view object with key-value pairs as tuples.
+dict.update(other_dict): Updates the dictionary with key-value pairs from another dictionary.
+    2. Adding and Removing Elements
+dict.pop(key, default): Removes the key and returns its value; if the key is not found, returns default (if provided) or raises an error.
+dict.popitem(): Removes and returns the last key-value pair as a tuple (LIFO order).
+dict.setdefault(key, default): Returns the value of key if it exists; otherwise, inserts key with default value.
+dict.clear(): Removes all items from the dictionary.
+    3. Copying and Creating Dictionaries
+dict.copy(): Returns a shallow copy of the dictionary.
+dict.fromkeys(iterable, value): Creates a new dictionary from iterable, setting each key to value.
+    4. Checking for Keys
+key in dict: Returns True if key exists in the dictionary.
+key not in dict: Returns True if key does not exist in the dictionary.
+
